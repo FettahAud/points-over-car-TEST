@@ -7,7 +7,7 @@ import Point from "./Point";
 
 export default function Experience() {
   const car = useRef();
-  const gltf = useLoader(GLTFLoader, "./car.glb");
+  const gltf = useLoader(GLTFLoader, "../car.glb");
   useFrame((state, delta) => {
     // car.current.position.y = Math.sin(state.clock.elapsedTime) * 0.05;
     // console.log(Math.cos(delta * 0.01));
